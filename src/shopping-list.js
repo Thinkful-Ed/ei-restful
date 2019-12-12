@@ -58,8 +58,6 @@ const handleNewItemSubmit = function () {
         store.addItem(newItem);
         render();
       });
-    store.addItem(newItemName);
-    render();
   });
 };
 
