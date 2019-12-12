@@ -16,7 +16,7 @@ const main = function () {
 
       const item = store.items[0];
       console.log('current name: ' + item.name);
-      store.findAndUpdate(item.id, { name: 'foobar' });
+      store.findAndUpdate(item.id, { name: 'barbaz' });
       console.log('new name: ' + item.name);
     });
 
